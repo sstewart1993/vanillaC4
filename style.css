@@ -2,8 +2,8 @@
     border: 1px solid;
     display: flex;
     flex-wrap: wrap;
-    height: 120px;
-    width: 140px;
+    height: 320px;
+    width: 430px;
 }
 
 .grid div{
