@@ -63,9 +63,12 @@ function checkBoard(){
             else if(square1.classList.contains('player-two')&&
             square2.classList.contains('player-two')&&
             square3.classList.contains('player-two')&&
-            square4.classList.contains('player-two'))
+            square4.classList.contains('player-two')){
             // if they do player1 wins
-            result.innerHTML = 'Player 1 wins!'
-
+            result.innerHTML = 'Player 2 wins!'
+            }
         }
 }
+// add an event listener to each square that will trigger the checkboard function
+
+squares.forEach(square => square.addEventListener('click', checkBoard))
